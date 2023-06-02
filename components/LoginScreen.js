@@ -7,7 +7,7 @@ import {
   TouchableOpacity,
 } from 'react-native';
 
-LoginScreen = ({navigation}) => {
+const LoginScreen = ({navigation}) => {
   const handlesignup = () => {navigation.navigate('SignupPage');};
   return (
     <View style={styles.container}>

@@ -7,7 +7,7 @@ import {
   TouchableOpacity,
 } from 'react-native';
 
-SignupPage = ({navigation}) => {
+const SignupPage = ({navigation}) => {
    const handleLogin = () => {navigation.navigate('LoginScreen');};
   
   return (
